@@ -4,25 +4,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>Fasco</title>
   <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-
+<div class="container">
+  <!--header-->
+  <header class="flex ContentSpaceBetween">
+    <h1>FASCO</h1>
+    <div class="MenuBtn" onclick="ShowMenu(this)">
+      <div class="hamburger">
+        <input type="checkbox" class="hamburger-init">
+        <div class="menu">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+    </div>
+    <ul class="MenuList">
+      <li><a>Home</a></li>
+      <li><a>Deals</a></li>
+      <li><a>New Arrivals</a></li>
+      <li><a>Packages</a></li>
+      <li><a>Sign in</a></li>
+      <li><a>Sign Up</a></li>
+    </ul>
+  </header>
+  <!--header-->
+</div>
   <!-- Add your site or application content here -->
 
   <script src="js/app.js"></script>
