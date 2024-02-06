@@ -209,7 +209,6 @@ header ul li a:hover{
 @media (max-width: 1200px){
   .banner{
     display: grid;
-    grid-template-areas: auto auto;
     grid-template-rows: auto auto;
     justify-content: space-around;
   }
@@ -285,3 +284,12 @@ header ul li a:hover{
   }
 }
 /*banner*/
+/*brand*/
+.brandWrapper{
+  padding: 83.5px 0;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+.brandWrapper img{
+  margin: auto;
+}
+/*brand*/
