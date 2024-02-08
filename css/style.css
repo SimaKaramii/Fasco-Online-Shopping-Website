@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.cdnfonts.com/css/digital-numbers');
 
 body{
   margin: 0;
@@ -184,7 +185,7 @@ header ul li a:hover{
   text-align: center;
   margin: 1.85rem 0 0;
 }
-.banner a{
+.btn{
   background: #000;
   color: #fff;
   text-decoration: none;
@@ -293,3 +294,83 @@ header ul li a:hover{
   margin: auto;
 }
 /*brand*/
+/*offer*/
+.leftOffer{
+  width: 35%;
+}
+.leftOffer a.btn{
+  margin-left: 0;
+}
+.offerWrapper{
+  background: #FDFDFD;
+  padding: 83.5px 0;
+  font-family: Poppins;
+}
+.offerWrapper p{
+  font-size: 16px;
+  color: #8A8A8A;
+  font-weight: 400;
+}
+.offerWrapper h2{
+  color: #484848;
+  font-width: 400;
+  font-size: 46px;
+  font-family: 'Volkhov', serif;
+}
+.offerWrapper h4{
+  font-size: 28px;
+  margin: 1rem 0;
+  font-weight: 600;
+  color: #484848;
+}
+.time{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.time li{
+  margin: 1rem 1.5rem;
+  margin-left: 0;
+}
+.time li input{
+  width: 76px;
+  height: 76px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 32px;
+  font-family: 'Digital Numbers', sans-serif;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+.time li p{
+  text-align: center;
+  font-size: 24px;
+  margin: 1rem 0;
+  font-weight: 400;
+  color: #484848;
+}
+.rightOffer div:not(.rightOfferText){
+  position: relative;
+}
+.rightOfferText{
+  position: absolute;
+  background: white;
+  width: 217px;
+  height: 130px;
+  bottom: 10px;
+  left: 10px;
+}
+.rightOfferText p{
+  color: black;
+  margin: 0;
+}
+.rightOfferText p:first-child{
+  margin: 2.2rem 1.5rem 0.5rem;
+  font-size: 16px;
+}
+.rightOfferText p:last-child{
+  margin: 0rem 1.5rem 2.2rem;
+  font-size: 28px;
+}
+/*offer*/
