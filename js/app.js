@@ -76,3 +76,18 @@ time()
 setInterval(() => {
   time()
 },1000);
+
+//main section
+function openTab(event , tabActive) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].classList.remove('show');
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].classList.remove('active');
+  }
+  document.getElementById(tabActive).classList.add('show');
+  event.currentTarget.classList.add('active');
+}
