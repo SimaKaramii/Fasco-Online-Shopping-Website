@@ -28,6 +28,17 @@ body{
 .ContentSpaceBetween{
   justify-content: space-between;
 }
+.styleHeader1{
+  color: #484848;
+  font-width: 400;
+  font-size: 46px;
+  font-family: 'Volkhov', serif;
+}
+.styleText{
+  font-size: 16px;
+  color: #8A8A8A;
+  font-weight: 400;
+}
 /*header*/
 header{
   margin: 2rem 0;
@@ -219,9 +230,9 @@ header ul li a:hover{
     display: inline-flex;
     grid-row: 1;
     grid-column: 1;
-      width: 100%;
-      max-width: 100%;
-      height: 47%;
+    width: 100%;
+    max-width: 100%;
+    height: 47%;
   }
 
   .banner div.centerBanner{
@@ -306,17 +317,6 @@ header ul li a:hover{
   background: #FDFDFD;
   padding: 83.5px 0;
   font-family: Poppins;
-}
-.offerWrapper p{
-  font-size: 16px;
-  color: #8A8A8A;
-  font-weight: 400;
-}
-.offerWrapper h2{
-  color: #484848;
-  font-width: 400;
-  font-size: 46px;
-  font-family: 'Volkhov', serif;
 }
 .offerWrapper h4{
   font-size: 28px;
@@ -471,3 +471,58 @@ a{
   }
 }
 /*mainSection*/
+/*newsletter*/
+.newsletter{
+  background: #fff;
+}
+.newsletter .textNews{
+  width: calc(100% - 617px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.newsletter .newsletterImg{
+  max-width: 335px;
+}
+.newsletter p , .newsletter h2{
+  text-align: center;
+}
+.newsletter input[type=email]{
+  outline: none;
+  width: 100%;
+  border: none;
+  height: 86px;
+  color: #8A8A8A;
+  font-size: 22px;
+  box-shadow: rgb(17 17 26 / 10%) 9px 12px 25px 1px;
+  padding-left: 5px;
+  margin-bottom: 1rem;
+}
+@media (max-width: 1000px) {
+  .newsletter .newsletterImg:first-child{
+    display: none;
+  }
+  .newsletter .flex{
+    justify-content: space-between;
+  }
+  .newsletter .textNews {
+    width: calc(100% - 335px);
+  }
+  .newsletter p , .newsletter h2{
+    text-align: left;
+  }
+}
+@media (max-width: 784px) {
+  .newsletter .newsletterImg{
+    display: none;
+  }
+  .newsletter .textNews {
+    width: 90%;
+    margin: auto;
+  }
+  .newsletter p , .newsletter h2{
+    text-align: center;
+  }
+}
+/*newsletter*/
